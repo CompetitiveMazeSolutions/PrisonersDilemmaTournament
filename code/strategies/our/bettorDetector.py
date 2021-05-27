@@ -2,7 +2,7 @@ import random
 import numpy as np
 
 
-# POSSIBLE STRATEGIES #
+## POSSIBLE STRATEGIES ##
 def always_defect(history, memory):
     return 0, memory
 
@@ -10,8 +10,8 @@ def always_defect(history, memory):
 def always_cooperate(history, memory):
     return 1, memory
 
+# SOLID STRATEGY THAT PLAYS NICELY WITH MOST
 def default(history, memory):
-    # SOLID STRATEGY THAT PLAYS NICELY WITH MOST
     MAX = 0
     MIN = -4
     #RANDOMCOOP = 10
@@ -32,35 +32,36 @@ def default(history, memory):
     return choice, coop_level
 
 
-FIRST_MOVE = 1
+## SETTINGS (THESE WERE OPTIMIZED WITH ANOTHER ALGORITM) ##
 FIRST_STRAT = default
 DEFAULT_STRAT = default
 #EMA_SMOOTHING = 2
 #EMA_SAMPLE = 10
-MA_SAMPLE = 15
-CORR_SAMPLE = 18
-CORRELATION_THRESHOLD = 0.3
-TIT_FOR_TAT_THRESHOLD = 0.8
-COOP_THRESHOLD = 0.8
-WRONGING_THRESHOLD = 1
-REVIVE_CHECK_NUM = 3
+MA_SAMPLE = 15 # Used to determine a length of a "moving average" of the previous moves (reacts more quickly the lower the value is)
+CORR_SAMPLE = 18 # Used to determine a length of a correlation calculation (reacts more quickly the lower this value is)
+CORRELATION_THRESHOLD = 0.4 # When the correlation is below this threshold, the strategy determines that the opponent is not reacting.
+TIT_FOR_TAT_THRESHOLD = 0.8 # When the correlation is above this, the strategy determines the opponent to be a "Tit for Tat" style strategy.
+COOP_THRESHOLD = 0.8 # If the moving average is above this value, the strategy determines the opposing strategy to be cooperating, and will ignore defects until this is breached.
+WRONGING_THRESHOLD = 1 # Number of times the bot must be defected against in a row to begin to change things up.
+REVIVE_CHECK_NUM = 3 # Number of defects in a row that must occur to trigger a "revive."
 
 
 def strategy(history, memory):
-    #first round
+    # First round
     if history.shape[1] == 0:
-        memory = {
+        memory = { # Initialize the memory
             "strat": FIRST_STRAT,
             #"coop_ratio_ema": 0,
             "strat_memory": None,
-            "wronged": False,
-            "concurrent_wrongings": 0,
-            "is_reviving": False,
-            "revive_failed": False,
+            "wronged": False, # If the opponent has ever defected
+            "concurrent_wrongings": 0, # Defects in a row (needed to trigger Wronged)
+            "is_reviving": False, # Whether a revive is being undertaken
+            "revive_failed": False, # Whether a revive has previously failed and soh
         }
         choice, memory["strat_memory"] = memory["strat"](history, memory["strat_memory"])
-    #remainder of the game
+    # Remainder of the game
     else:
+        # Some values used in calculations
         opponent_last = history[1, -1]
         turns_total = history.shape[1]
 
@@ -78,7 +79,7 @@ def strategy(history, memory):
         if sum_defects == REVIVE_CHECK_NUM and not memory["revive_failed"]:
             memory["is_reviving"] = True
 
-        # Acts like grimTrigger, but changes strategy based on data to best combat opponent
+        # Makes whole strategy act like grimTrigger, but instead of just defecting, changes strategy based on data to best combat opponent
         if not memory["wronged"] and opponent_last == 0:
             memory["concurrent_wrongings"] += 1
             if memory["concurrent_wrongings"] >= WRONGING_THRESHOLD:
@@ -93,23 +94,23 @@ def strategy(history, memory):
                 strat = always_cooperate
                 if history[0,-1] and history[0, -2] and history[1, -1]:  #If opponent took the coop
                     memory["is_reviving"] = False
-                    strat = DEFAULT_STRAT
                     memory["wronged"] = False #become chums once again
+                    strat = FIRST_STRAT
                 elif history[0, -1] and history[0,-2] and not history[1, -1]:  # Oppenent continues to defect
                     memory["is_reviving"] = False
                     memory["revive_failed"] = True
                     strat = DEFAULT_STRAT
-            elif r > TIT_FOR_TAT_THRESHOLD or average >= COOP_THRESHOLD:
-              #If it is tit-for-tating or jossing then cooperate to get most points
+            elif r > TIT_FOR_TAT_THRESHOLD or average >= COOP_THRESHOLD:# If it is tit-for-tating or jossing then cooperate to get most points
               strat = always_cooperate
-            elif r < CORRELATION_THRESHOLD:
-              #If it is not responding then defect is optimal
+            elif r < CORRELATION_THRESHOLD:# If it is not responding then defect is the optimal strategy
               strat = always_defect
             else:
+              # If all else fails, go back to basics
               strat = DEFAULT_STRAT
             memory["strat"] = strat
 
-        if curr_strat is not memory["strat"]:  #If the strategy has changed, reset memory
+        # If the strategy has changed, reset memory
+        if curr_strat is not memory["strat"]:  
             memory["strat_memory"] = None
         
         choice, memory["strat_memory"] = memory["strat"](history, memory["strat_memory"])
