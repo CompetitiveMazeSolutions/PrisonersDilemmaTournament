@@ -39,7 +39,7 @@ DEFAULT_STRAT = default
 #EMA_SAMPLE = 10
 MA_SAMPLE = 15
 CORR_SAMPLE = 18
-CORRELATION_THRESHOLD = 0.4
+CORRELATION_THRESHOLD = 0.3
 TIT_FOR_TAT_THRESHOLD = 0.8
 COOP_THRESHOLD = 0.8
 WRONGING_THRESHOLD = 1
@@ -51,7 +51,7 @@ def strategy(history, memory):
     if history.shape[1] == 0:
         memory = {
             "strat": FIRST_STRAT,
-            "coop_ratio_ema": 0,
+            #"coop_ratio_ema": 0,
             "strat_memory": None,
             "wronged": False,
             "concurrent_wrongings": 0,
@@ -109,8 +109,8 @@ def strategy(history, memory):
               strat = DEFAULT_STRAT
             memory["strat"] = strat
 
-        #if curr_strat is not memory["strat"]:  #If the strategy has changed, reset memory
-        #    memory["strat_memory"] = None
+        if curr_strat is not memory["strat"]:  #If the strategy has changed, reset memory
+            memory["strat_memory"] = None
         
         choice, memory["strat_memory"] = memory["strat"](history, memory["strat_memory"])
     return choice, memory
