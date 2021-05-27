@@ -1,228 +1,76 @@
-alwaysCooperate (P1)  VS.  alwaysDefect (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for alwaysCooperate: 0.0
-Final score for alwaysDefect: 5.0
-
-alwaysCooperate (P1)  VS.  detective (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C D C C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for alwaysCooperate: 0.032490974729241874
-Final score for detective: 4.978339350180505
-
-alwaysCooperate (P1)  VS.  ftft (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for alwaysCooperate: 3.0
-Final score for ftft: 3.0
-
-alwaysCooperate (P1)  VS.  grimTrigger (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for alwaysCooperate: 3.0
-Final score for grimTrigger: 3.0
-
-alwaysCooperate (P1)  VS.  joss (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C D C C C C C C C C C C C C C D C C C C C C C D C C C C C C D C C C C C C C C C C D C C C C C C C C C C D C C C C C C C C C C C C C C C C C C C C C C C C D C C D C C C C C C C C D C C C C C C C C C C C C C C C C C C C C C C C C D C C C C C C C C C C C C C C C C D C C C C C C C C D C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C D C C C C D C C C C C C C C C C C C C D D C C D C C C C C C C C C C C C C C D C C C C C D C C D C C C D C C C C D C C C D C C C C C C C C C C D D 
-Final score for alwaysCooperate: 2.7093023255813953
-Final score for joss: 3.193798449612403
-
-alwaysCooperate (P1)  VS.  random (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-D D D C D D C D C C C D D C D D C C C C D C C D C C D C D C C D D D D C D D C D D D C D C C D C C D D D D C D D D C C C D C D D D D D C C C C C D C D C C D D D D C C C D C D D D D C C D C C C D C C C D D C D C D C C D C C C C C C D D C C D C C C D D C C D D D D C C C D C D C C C D C D D C D C D D C C C C C C C C D D D D D D C C D D C D D C D C D C C D D D D C C C D C D D C D C D D D D D D D C C C D D C C D D D D 
-Final score for alwaysCooperate: 1.4711538461538463
-Final score for random: 4.019230769230769
-
-alwaysCooperate (P1)  VS.  simpleton (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for alwaysCooperate: 3.0
-Final score for simpleton: 3.0
-
-alwaysCooperate (P1)  VS.  titForTat (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for alwaysCooperate: 3.0
-Final score for titForTat: 3.0
-
-alwaysDefect (P1)  VS.  detective (P2)
-D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C D C C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for alwaysDefect: 1.055045871559633
-Final score for detective: 0.9862385321100917
-
-alwaysDefect (P1)  VS.  ftft (P2)
-D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for alwaysDefect: 1.038647342995169
-Final score for ftft: 0.9903381642512077
-
-alwaysDefect (P1)  VS.  grimTrigger (P2)
-D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for alwaysDefect: 1.019047619047619
-Final score for grimTrigger: 0.9952380952380953
-
-alwaysDefect (P1)  VS.  joss (P2)
-D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for alwaysDefect: 1.0148148148148148
-Final score for joss: 0.9962962962962963
-
-alwaysDefect (P1)  VS.  random (P2)
-D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C D D D C C C D D D C C D D D C D C D C D D C D C D D D C C D D D C D C D C D D C C D D D C D C D D C D C D C D C D C D D D D C C D D D C C D D D D D C D D C C D C D D C C C D C C D C D D C D D D C C C C D D C D D D C D C C D C C D D D D D D C C D D C C D C D C D D D D D D C D D D D C C C D D C D C D C D C D D C D D D D C C D C D D C C C C D D C C C D D C C D C D C C D C D C D D C D C D D C D C D C D C C C D D C C C C D D C C D C C D D C 
-Final score for alwaysDefect: 2.7918552036199094
-Final score for random: 0.5520361990950227
-
-alwaysDefect (P1)  VS.  simpleton (P2)
-D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D C D 
-Final score for alwaysDefect: 3.0
-Final score for simpleton: 0.5
-
-alwaysDefect (P1)  VS.  titForTat (P2)
-D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for alwaysDefect: 1.015209125475285
-Final score for titForTat: 0.9961977186311787
-
-detective (P1)  VS.  ftft (P2)
-C D C C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C C C C C C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for detective: 1.0649819494584838
-Final score for ftft: 1.0108303249097472
-
-detective (P1)  VS.  grimTrigger (P2)
-C D C C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for detective: 1.0176991150442478
-Final score for grimTrigger: 1.0398230088495575
-
-detective (P1)  VS.  joss (P2)
-C D C C D C D C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C C D D C D C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for detective: 1.045045045045045
-Final score for joss: 1.0675675675675675
-
-detective (P1)  VS.  random (P2)
-C D C C D D C D D D D D C D C D C D C C C C C C D D C C C D D D D C C C D C D C C C D C D D D C D C C D C D D C D C C C C D C C D D C D C C C C C D C C D D D C D D C C D D C C D C C C C D C C D C D C D D C D C C C D C C C C D D D D D D C C C C C D C C C C D C C D D C C D D D C D C D D D D D C C D D C C C D C D C D C D D D D C C D D D D C C D D D D C D C C D C C D D D C C D D C D D D D D D C D C D C C C C D C C D D D D C C D C C D D C C C D D C C C C D C D C D D D D D C D C D D C D C 
-D C C D D C D D D D D C D C D C D C C C C C C D D C C C D D D D C C C D C D C C C D C D D D C D C C D C D D C D C C C C D C C D D C D C C C C C D C C D D D C D D C C D D C C D C C C C D C C D C D C D D C D C C C D C C C C D D D D D D C C C C C D C C C C D C C D D C C D D D C D C D D D D D C C D D C C C D C D C D C D D D D C C D D D D C C D D D D C D C C D C C D D D C C D D C D D D D D D C D C D C C C C D C C D D D D C C D C C D D C C C D D C C C C D C D C D D D D D C D C D D C D C D 
-Final score for detective: 2.2581967213114753
-Final score for random: 2.278688524590164
-
-detective (P1)  VS.  simpleton (P2)
-C D C C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D 
-C C D D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C 
-Final score for detective: 2.0096618357487923
-Final score for simpleton: 2.0096618357487923
-
-detective (P1)  VS.  titForTat (P2)
-C D C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C D C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for detective: 2.996212121212121
-Final score for titForTat: 2.996212121212121
-
-ftft (P1)  VS.  grimTrigger (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for ftft: 3.0
-Final score for grimTrigger: 3.0
-
-ftft (P1)  VS.  joss (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C D C C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C C D C C C C C C C C D C D C C C C C C D C C C C C C C C C D C D D C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for ftft: 1.170731707317073
-Final score for joss: 1.3101045296167246
-
-ftft (P1)  VS.  random (P2)
-C C D D C C D C C D D D C C C C D D D C C D C C C C C C D D C C C C C C C D D C C D D D D C C C C C C C C C C C D C C C C C C D C C C C C C C C C C C C D C C C C C D C C D C C C C C C D D C C C C C C C C D D C C C D D C C C C C C D D C C C C C C C C C C C C D D C C C C D D D C C C C C C C C D C C C C C C C C D C C D D D D D C C D C C C C D D D D C C D C C C C D C C C C C C C C D D D C C C D C C C C C C C C D D C C C C D C C D C C 
-D D D C D D C D D D D C C C D D D D C D D C C C D C D D D C D C D C C D D D C D D D D D C D C D C C D C C C D D C C D C C D D C D C C C C C D C C C D D C C C C D D C D D C C D C C D D D C D C C D C C D D D C C D D D C C C D C D D D C C C C C D C C D C C D D D C D C D D D D C C D C C D C D D C C D C D C C D D C D D D D D D C D D C D C D D D D D C D D C D C D D C C C C C C C D D D D C C D D C C C C C C C D D D C D C D D C D D C D C 
-Final score for ftft: 1.847926267281106
-Final score for random: 3.1152073732718892
-
-ftft (P1)  VS.  simpleton (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for ftft: 3.0
-Final score for simpleton: 3.0
-
-ftft (P1)  VS.  titForTat (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for ftft: 3.0
-Final score for titForTat: 3.0
-
-grimTrigger (P1)  VS.  joss (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C D C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for grimTrigger: 1.231939163498099
-Final score for joss: 1.231939163498099
-
-grimTrigger (P1)  VS.  random (P2)
-C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-D C D C D D C C C C D D C C D C C D D C D D D C C C C C D D C C C D C C C D C D D C C C D C D D C C D D C D D D C D C D D C D D C D D D C C C C C D D C C C D C C C D C D C D D D D C D C C D D D C D D C C D D D D D C C C C D D D D C D C C C C C D D D C D C C C C D D C D C D D C C C D C D D C D C C C C C C C C D D D C D C C C C C C D D C D D D C D C C C D C C D D D D D C D C D C D D C D C C D D C D D C 
-Final score for grimTrigger: 3.0742574257425743
-Final score for random: 0.5
-
-grimTrigger (P1)  VS.  simpleton (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for grimTrigger: 3.0
-Final score for simpleton: 3.0
-
-grimTrigger (P1)  VS.  titForTat (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for grimTrigger: 3.0
-Final score for titForTat: 3.0
-
-joss (P1)  VS.  random (P2)
-C D C D D D D C C C D D C D C D C C C C C D D D D D D C C D D D D C D C C C C D C D C C D C C C D C D C D C D C D D D C D D C D C C D D D C D D C D C D D D D D D D C C D D D C D D D D C D D C C C D C D C C D C C C D D D D C C D D C D D D C C C C C D D D C C D C D D D D C C C C C C C D C D C C D D D C C C D C D D D C D D D D C D C D D C C D D C C C C C D D C D C D D D C C C D D D D C C D D D D C C D D D 
-D C D D D D C C C D D C D C D C C C C C D C D D D D C C D D D D C D C C C C D C D C C D C C C D C D C D C C C D C D C D D C C C C D D D C D D C D C D C D D D D D C C D D D C D D D D C D D C C C C C D C C D C C C D D D D C C D D C D D D C C C C C D D D C C D C D D D D C C C C C C C D C D C C D D D C C C C C D D D C D D D D C D C D D C C D D C C C C C D D C D C D D D C C C D D D D C C D D D D C C D D D C 
-Final score for joss: 2.2758620689655173
-Final score for random: 2.103448275862069
-
-joss (P1)  VS.  simpleton (P2)
-C C C C C C C C C C C C D C D D C D D C D D C D D C D D C D D D D C D D C D D C D D C D D D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D D D D D C D D C D D C D D D D C D D C D D C D D C D D C D D C D D C D D D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C 
-C C C C C C C C C C C C C D D C D D C D D C D D C D D C D D C D C D D C D D C D D C D D C D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D C D C D D C D D C D D C D C D D C D D C D D C D D C D D C D D C D D C D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D D C D 
-Final score for joss: 2.133663366336634
-Final score for simpleton: 1.9603960396039604
-
-joss (P1)  VS.  titForTat (P2)
-C C C D C D C D C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-C C C C D C D C D C D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D 
-Final score for joss: 1.081896551724138
-Final score for titForTat: 1.0603448275862069
-
-random (P1)  VS.  simpleton (P2)
-C D C D D D C C D C D D C C D C C D C C C C C D C C C D C C D C D D C D C C D D C D C C C C D D D C D C C D D D D C D C C D D C C C D C D D C C C D C C D D D D C D D D D D D C C D D D C C D D D D D C C D C C D C C D D D C C D D C D D D C D D D C D C C C C C C D C C D D D D C D D D D D D C C D D D C C D D C C D D C D C D C D C D D D D D C D D C C D D C D C C D C D C D C C D C D C D D C D C C C D C D C C D C C C D D C C C D D 
-C C D D C D C C C D D C D D D C C C D D D D D D C C C C D D D C C D C C D D D C D D C C C C C D C D D C C C D C D C C D D D C D D D D C C D C C C C D D D C D C D D C D C D C D D D C D C C C D C D C D D D C C C D D D C D C C C D C C D C D D C D C C D D D D D D D C C C D C D C C D C D C D C C C D C D D D C D D D C D D C C D D C C D C D C D D C D D D C D D C C C D D C C D D D C C D D C D D C C C C D D C C C D D D D C D D D D C 
-Final score for random: 2.196261682242991
-Final score for simpleton: 2.2429906542056073
-
-random (P1)  VS.  titForTat (P2)
-C D D D C C D C D D D C D D D C D C D C D C C C D C D C D D D D D D C C C D C C D D C D C C C C C D D D D C D C D C C D C D D D C C C D C C C D D D C D C D D D D D C D C C C D D D C D C D C C D D C C D C C C D C C C C D C C D C C D C C D D D D D C D D D D C C D D C C C D C C D C C D C C D D D D D C C D D C C D C C D C D D C C C D D D C D D C D D C C D D C C C D D C C C D C C C D C C C D D D D C D D C C D C C C C D C C C C C C D D D D C 
-C C D D D C C D C D D D C D D D C D C D C D C C C D C D C D D D D D D C C C D C C D D C D C C C C C D D D D C D C D C C D C D D D C C C D C C C D D D C D C D D D D D C D C C C D D D C D C D C C D D C C D C C C D C C C C D C C D C C D C C D D D D D C D D D D C C D D C C C D C C D C C D C C D D D D D C C D D C C D C C D C D D C C C D D D C D D C D D C C D D C C C D D C C C D C C C D C C C D D D D C D D C C D C C C C D C C C C C C D D D D 
-Final score for random: 2.268181818181818
-Final score for titForTat: 2.268181818181818
-
-simpleton (P1)  VS.  titForTat (P2)
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C 
-Final score for simpleton: 3.0
-Final score for titForTat: 3.0
-
 
 
 TOTAL SCORES
-#1: titForTat:       19.321  (2.415 average)
-#2: simpleton:       18.713  (2.339 average)
-#3: grimTrigger:     18.341  (2.293 average)
-#4: random:          17.033  (2.129 average)
-#5: ftft:            17.020  (2.127 average)
-#6: detective:       16.356  (2.045 average)
-#7: alwaysCooperate: 16.213  (2.027 average)
-#8: alwaysDefect:    15.935  (1.992 average)
-#9: joss:            13.291  (1.661 average)
+#1: decxjo.omega:    211.468  (2.937 average)
+#2: l4vr0v.OptimisedPriest: 209.962  (2.916 average)
+#3: smough.OldFallenAngel: 209.875  (2.915 average)
+#4: phoenix.hygrit:  209.544  (2.910 average)
+#5: phoenix.periodicCopycat: 209.466  (2.909 average)
+#6: phoenix.stopper: 209.227  (2.906 average)
+#7: valadaptive.antijossPeriodic: 209.177  (2.905 average)
+#8: l4vr0v.npfitt:   209.140  (2.905 average)
+#9: smough.smoughsKinderCopycat: 209.087  (2.904 average)
+#10: smough.FallenAngel: 208.767  (2.900 average)
+#11: dup.z_TFT:       208.755  (2.899 average)
+#12: def.titForTat:   208.736  (2.899 average)
+#13: smough.AngryPriest: 208.733  (2.899 average)
+#14: l4vr0v.nprtt-forgiveOnce: 208.711  (2.899 average)
+#15: l4vr0v.reflectiveTitForTat: 208.636  (2.898 average)
+#16: Nobody5050.ImprovedHindenburg: 208.456  (2.895 average)
+#17: smough.Priest:   208.300  (2.893 average)
+#18: l4vr0v.nprtt:    207.980  (2.889 average)
+#19: smough.smoughCopycat: 207.759  (2.886 average)
+#20: l4vr0v.npwtt:    207.537  (2.882 average)
+#21: l4vr0v.npnntt:   207.269  (2.879 average)
+#22: valadaptive.ngrams2: 207.114  (2.877 average)
+#23: edward.niceTitForTat: 207.105  (2.876 average)
+#24: nekiwo.antijoss: 206.870  (2.873 average)
+#25: valadaptive.antijossDynamic: 206.850  (2.873 average)
+#26: saffron.balance: 206.847  (2.873 average)
+#27: l4vr0v.selfAwareTitForTat: 206.613  (2.870 average)
+#28: valadaptive.angery: 206.612  (2.870 average)
+#29: smough.FallenAngel2: 206.571  (2.869 average)
+#30: l4vr0v.moralTitForTat: 206.463  (2.868 average)
+#31: dratini0.parametric_1: 206.321  (2.866 average)
+#32: saffron.balanceDynamic: 206.179  (2.864 average)
+#33: valadaptive.ngrams3: 205.666  (2.856 average)
+#34: smough.Howdy_I_would_like_to_use_this_medium_to_tell_you_about_Activision_suing_a_small_indie_game_called_Warzone: 205.319  (2.852 average)
+#35: l4vr0v.grimMoralTitForTat: 204.768  (2.844 average)
+#36: our.dpg3-mlc:    204.647  (2.842 average)
+#37: smough.Handsome_programmer_is_looking_for_a_smart_and_pretty_girl_to_date_mail_me_in_lasermancergmailcom: 204.628  (2.842 average)
+#38: l4vr0v.relaxedGrimMoralTitForTat: 204.430  (2.839 average)
+#39: our.bettorDetector: 204.044  (2.834 average)
+#40: decxjo.gradual:  203.984  (2.833 average)
+#41: l4vr0v.escalatingTitForTat: 203.710  (2.829 average)
+#42: l4vr0v.resilientTitForTat: 203.651  (2.828 average)
+#43: l4vr0v.clevererDetective: 201.074  (2.793 average)
+#44: def.simpleton:   200.656  (2.787 average)
+#45: dratini0.statistician: 200.456  (2.784 average)
+#46: l4vr0v.cleverDetective: 199.774  (2.775 average)
+#47: nekiwo.PrisonerSherlock: 199.283  (2.768 average)
+#48: phoenix.agent:   199.143  (2.766 average)
+#49: l4vr0v.shortwindow: 198.576  (2.758 average)
+#50: l4vr0v.delayedDetective: 198.493  (2.757 average)
+#51: Nobody5050.hindenburg: 198.387  (2.755 average)
+#52: valadaptive.titForTatDelayed: 198.331  (2.755 average)
+#53: dup.z_D:         197.431  (2.742 average)
+#54: l4vr0v.ultimateDetectiveForgiveOnce: 197.092  (2.737 average)
+#55: l4vr0v.ultimateDetective: 196.784  (2.733 average)
+#56: def.detective:   196.452  (2.728 average)
+#57: l4vr0v.mostBestestDetective: 194.941  (2.708 average)
+#58: l4vr0v.uftft:    192.192  (2.669 average)
+#59: l4vr0v.evilTitForTat: 192.178  (2.669 average)
+#60: l4vr0v.conMan:   189.299  (2.629 average)
+#61: def.ftft:        187.700  (2.607 average)
+#62: l4vr0v.smartJoss: 186.602  (2.592 average)
+#63: def.grimTrigger: 185.211  (2.572 average)
+#64: dup.z_GT:        184.797  (2.567 average)
+#65: l4vr0v.switcher: 171.962  (2.388 average)
+#66: def.alwaysCooperate: 169.298  (2.351 average)
+#67: def.joss:        163.897  (2.276 average)
+#68: l4vr0v.windowed: 158.644  (2.203 average)
+#69: l4vr0v.fibonacciDefector: 158.605  (2.203 average)
+#70: dup.z_CF:        155.168  (2.155 average)
+#71: dup.z_R:         143.376  (1.991 average)
+#72: def.random:      142.361  (1.977 average)
+#73: def.alwaysDefect: 98.618  (1.370 average)

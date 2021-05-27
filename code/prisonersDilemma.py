@@ -4,7 +4,8 @@ import importlib
 import numpy as np
 import random
 
-STRATEGY_FOLDER = "exampleStrats"
+PREFIX = "code/"
+STRATEGY_FOLDER = "strategies"
 RESULTS_FILE = "results.txt"
 
 pointsArray = [[1,5],[0,3]] # The i-j-th element of this array is how many points you receive if you do play i, and your opponent does play j.
@@ -49,7 +50,7 @@ def runRound(pair):
         playerBmove, memoryB = moduleB.strategy(getVisibleHistory(history,1,turn),memoryB)
         history[0,turn] = strategyMove(playerAmove)
         history[1,turn] = strategyMove(playerBmove)
-        
+
     return history
     
 def tallyRoundScores(history):
@@ -85,36 +86,46 @@ def runFullPairingTournament(inFolder, outFile):
     scoreKeeper = {}
     STRATEGY_LIST = []
     for file in os.listdir(inFolder):
-        if file.endswith(".py"):
-            STRATEGY_LIST.append(file[:-3])
-            
+      if file != "__pycache__":
+        for file2 in os.listdir(inFolder+"/"+file):
+          if file2.endswith(".py"):
+            STRATEGY_LIST.append(file + "." + file2[:-3])
+    print("LEN=",len(STRATEGY_LIST))        
             
     for strategy in STRATEGY_LIST:
         scoreKeeper[strategy] = 0
         
     f = open(outFile,"w+")
-    for pair in itertools.combinations(STRATEGY_LIST, r=2):
+    for i, pair in enumerate(itertools.combinations(STRATEGY_LIST, r=2)):
+      #if "our.bettorDetector"in pair or "decxjo.omega" in pair:
         roundHistory = runRound(pair)
         scoresA, scoresB = tallyRoundScores(roundHistory)
-        outputRoundResults(f, pair, roundHistory, scoresA, scoresB)
+        #outputRoundResults(f, pair, roundHistory, scoresA, scoresB)
         scoreKeeper[pair[0]] += scoresA
         scoreKeeper[pair[1]] += scoresB
+        print(i)
         
     scoresNumpy = np.zeros(len(scoreKeeper))
     for i in range(len(STRATEGY_LIST)):
         scoresNumpy[i] = scoreKeeper[STRATEGY_LIST[i]]
     rankings = np.argsort(scoresNumpy)
-
+    
     f.write("\n\nTOTAL SCORES\n")
+    bettor_score=0
     for rank in range(len(STRATEGY_LIST)):
         i = rankings[-1-rank]
         score = scoresNumpy[i]
         scorePer = score/(len(STRATEGY_LIST)-1)
         f.write("#"+str(rank+1)+": "+pad(STRATEGY_LIST[i]+":",16)+' %.3f'%score+'  (%.3f'%scorePer+" average)\n")
+        if STRATEGY_LIST[i] == "our.bettorDetector":
+          bettor_score = scorePer
+
         
     f.flush()
     f.close()
     print("Done with everything! Results file written to "+RESULTS_FILE)
+
+    return bettor_score
+
     
-    
-runFullPairingTournament(STRATEGY_FOLDER, RESULTS_FILE)
+runFullPairingTournament(PREFIX+STRATEGY_FOLDER, PREFIX+RESULTS_FILE)
